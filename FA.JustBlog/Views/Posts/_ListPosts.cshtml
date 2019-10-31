@@ -1,0 +1,16 @@
+﻿@model IEnumerable<FA.JustBlog.Core.Models.Post>
+<div class="container">
+    @foreach (var item in Model)
+    {
+        <h5 style="font-size:12px">
+            @Html.ActionLink(item.Title, "Details", "Posts", new
+            {
+                year = item.PostOn.Year,
+                month
+            = item.PostOn.Month.ToString("00"),
+                title = item.UrlSlug
+            }, null)
+        </h5>
+    }
+</div>
+

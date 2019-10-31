@@ -1,0 +1,32 @@
+﻿@model IEnumerable<FA.JustBlog.Core.Models.Post>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/UsersAdmin/_JustBlogLayout.cshtml";
+}
+
+<div>
+    <h1>All Posts!</h1>
+    <h5> @Html.ActionLink("Latest Post", "LatestPost")</h5>
+
+    <br />
+    @foreach (var item in Model)
+    {
+        <h2>
+            @Html.ActionLink(item.Title, "Details", "Posts", new
+            {
+                year = item.PostOn.Year,
+                month
+            = item.PostOn.Month.ToString("00"),
+                title = item.UrlSlug
+            }, null)
+
+
+        </h2>
+        <p>Posted on @item.PostOn.ToString() with Rate @item.Rate by @item.ViewCount view(s)</p>
+        <p>@item.Description</p>
+    }
+</div>
+
+
+

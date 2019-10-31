@@ -1,0 +1,9 @@
+﻿@model IEnumerable<FA.JustBlog.Models.Tag>
+<div class="container">
+    @foreach (var item in Model)
+    {
+    <h5 style="font-size:12px">
+        @Html.ActionLink(item.Name, "Details", "Tag", new { id = item.Id }, null)
+    </h5>
+    }
+</div>

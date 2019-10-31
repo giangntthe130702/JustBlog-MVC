@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FA.JustBlog.Core", "FA.JustBlog.Core\FA.JustBlog.Core.csproj", "{D3549EA4-F512-44B1-974A-7E3855C1EF77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FA.JustBlog", "FA.JustBlog\FA.JustBlog.csproj", "{660200E0-B295-4B2B-B93F-471A5CA58ECF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3549EA4-F512-44B1-974A-7E3855C1EF77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3549EA4-F512-44B1-974A-7E3855C1EF77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3549EA4-F512-44B1-974A-7E3855C1EF77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3549EA4-F512-44B1-974A-7E3855C1EF77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{660200E0-B295-4B2B-B93F-471A5CA58ECF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{660200E0-B295-4B2B-B93F-471A5CA58ECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{660200E0-B295-4B2B-B93F-471A5CA58ECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{660200E0-B295-4B2B-B93F-471A5CA58ECF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87B42CB5-1E1D-4896-AF72-68BF7439DF94}
+	EndGlobalSection
+EndGlobal
